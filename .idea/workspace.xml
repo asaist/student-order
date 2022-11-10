@@ -4,59 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07840342-50cd-4b4f-8c1f-bc7c5f26df2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/SaveStudentOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/StudentOrderValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/dao/ConnectionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/dao/DictionaryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/dao/DictionaryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/dao/StudentOrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/dao/StudentOrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/Adult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/CountryArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/PassportOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/RegisterOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/Street.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/StudentOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/StudentOrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/children/AnswerChildren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/register/AnswerCityRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/register/AnswerCityRegisterItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/register/CityRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/student/AnswerStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/domain/wedding/AnswerWedding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/exception/CityRegisterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/exception/DaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/exception/TransportException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/mail/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/ChildrenValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/CityRegisterValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/StudentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/WeddingValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/register/CityRegisterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/register/FakeCityRegisterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/validator/register/RealCityRegisterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dao.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/student_data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/student_project.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/javacourse/studentorder/dao/DictionaryDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/javacourse/studentorder/dao/SimpleRunner.java" afterDir="false" />
+    <list default="true" id="07840342-50cd-4b4f-8c1f-bc7c5f26df2c" name="Changes" comment="70L">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/javacourse/studentorder/dao/DBInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/javacourse/studentorder/dao/StudentOrderDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/SaveStudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/StudentOrderValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/javacource/studentorder/StudentOrderValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/javacourse/studentorder/dao/DictionaryDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/javacourse/studentorder/dao/DictionaryDaoImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,20 +66,7 @@
       <recent name="edu.javacource.studentorder.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DictionaryDaoImplTest.testArea">
-    <configuration name="SimpleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.javacourse.studentorder.dao.SimpleRunner" />
-      <module name="student-order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.javacourse.studentorder.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentOrderDaoImplTest">
     <configuration name="DictionaryDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-order" />
       <extension name="coverage">
@@ -173,12 +114,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentOrderDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.javacourse.studentorder.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.javacourse.studentorder.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.javacourse.studentorder.dao.StudentOrderDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentOrderDaoImplTest.saveStudentOrderError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.javacourse.studentorder.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.javacourse.studentorder.dao" />
+      <option name="MAIN_CLASS_NAME" value="edu.javacourse.studentorder.dao.StudentOrderDaoImplTest" />
+      <option name="METHOD_NAME" value="saveStudentOrderError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentOrderDaoImplTest" />
+        <item itemvalue="JUnit.StudentOrderDaoImplTest.saveStudentOrderError" />
         <item itemvalue="JUnit.DictionaryDaoImplTest.testArea" />
         <item itemvalue="JUnit.DictionaryDaoImplTest" />
         <item itemvalue="JUnit.DictionaryDaoImplTest.testExample1" />
-        <item itemvalue="Application.SimpleRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667919760990</updated>
     </task>
+    <task id="LOCAL-00001" summary="70L">
+      <created>1668100757124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668100757124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,5 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="70L" />
+    <option name="LAST_COMMIT_MESSAGE" value="70L" />
   </component>
 </project>
