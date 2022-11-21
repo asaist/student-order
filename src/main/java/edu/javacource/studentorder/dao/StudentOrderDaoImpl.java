@@ -4,6 +4,9 @@ import edu.javacource.studentorder.config.Config;
 import edu.javacource.studentorder.dao.StudentOrderDao;
 import edu.javacource.studentorder.domain.*;
 import edu.javacource.studentorder.exception.DaoException;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 import java.sql.Connection;
@@ -19,6 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+@Slf4j
 
 public class StudentOrderDaoImpl implements StudentOrderDao
 {
@@ -94,6 +98,12 @@ public class StudentOrderDaoImpl implements StudentOrderDao
     @Override
     public Long saveStudentOrder(StudentOrder so) throws DaoException {
         Long result = -1L;
+        List<String> a = new LinkedList<>();
+        a.add("1");
+        a.add("2");
+        a.forEach(msg -> log.debug("Have some message: {}",msg));
+        log.error("Something else is wrong here");
+
 
         try (Connection con = getConnection();
              PreparedStatement stmt = con.prepareStatement(INSERT_ORDER, new String[]{"student_order_id"})) {
@@ -130,6 +140,7 @@ public class StudentOrderDaoImpl implements StudentOrderDao
             }
 
         } catch (SQLException ex) {
+            log.error(ex.getMessage(), ex);
             throw new DaoException(ex);
         }
 
@@ -223,6 +234,7 @@ public class StudentOrderDaoImpl implements StudentOrderDao
 
             rs.close();
         } catch(SQLException ex) {
+            log.error(ex.getMessage(), ex);
             throw new DaoException(ex);
         }
 
@@ -247,6 +259,7 @@ public class StudentOrderDaoImpl implements StudentOrderDao
 
             rs.close();
         } catch(SQLException ex) {
+            log.error(ex.getMessage(), ex);
             throw new DaoException(ex);
         }
 

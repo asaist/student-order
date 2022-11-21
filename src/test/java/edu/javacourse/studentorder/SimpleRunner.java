@@ -1,4 +1,4 @@
-package edu.javacourse.studentorder.dao;
+package edu.javacourse.studentorder;
 
 
 
@@ -15,7 +15,7 @@ public class SimpleRunner {
 
     private void runTests()  {
        try {
-           Class cl = Class.forName("edu.javacourse.studentorder.dao.DictionaryDaoImplTest");
+           Class cl = Class.forName("edu.javacourse.studentorder.DictionaryDaoImplTest");
 
            Constructor cst = cl.getConstructor();
            Object entity = cst.newInstance();

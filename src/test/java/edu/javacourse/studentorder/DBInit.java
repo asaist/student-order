@@ -1,4 +1,4 @@
-package edu.javacourse.studentorder.dao;
+package edu.javacourse.studentorder;
 
 import edu.javacource.studentorder.dao.ConnectionBuilder;
 import edu.javacource.studentorder.dao.DictionaryDaoImpl;

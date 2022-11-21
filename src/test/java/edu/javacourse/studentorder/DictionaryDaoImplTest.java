@@ -1,27 +1,23 @@
-package edu.javacourse.studentorder.dao;
+package edu.javacourse.studentorder;
 
 
 
-import edu.javacource.studentorder.dao.ConnectionBuilder;
 import edu.javacource.studentorder.dao.DictionaryDaoImpl;
 import edu.javacource.studentorder.domain.CountryArea;
 import edu.javacource.studentorder.domain.PassportOffice;
 import edu.javacource.studentorder.domain.RegisterOffice;
 import edu.javacource.studentorder.domain.Street;
 import edu.javacource.studentorder.exception.DaoException;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.sql.Connection;
-import java.sql.Statement;
+import java.time.LocalDateTime;
 import java.util.List;
-import java.util.stream.Collectors;
 
+@Slf4j
 
 public class DictionaryDaoImplTest {
 
@@ -30,9 +26,11 @@ public class DictionaryDaoImplTest {
         DBInit.StartUp();
     }
 
-
     @Test
     public void testStreet() throws DaoException {
+        LocalDateTime dt1 = LocalDateTime.now();
+        LocalDateTime dt2 = LocalDateTime.now();
+        log.debug("TEST {} {}",dt1, dt2);
         List<Street> d = new DictionaryDaoImpl().findStreets("про");
         Assert.assertTrue(d.size() == 2);
    }
